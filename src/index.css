@@ -324,3 +324,173 @@ footer {
 .hero-btn:hover {
   background-color: #0097a7;
 }
+.admin-btn {
+  background-color: transparent;
+  border: 1px solid #00bcd4;
+  color: #00bcd4;
+  padding: 6px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.3s;
+}
+
+.admin-btn:hover {
+  background-color: #00bcd4;
+  color: #0a0a0a;
+}
+
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0a0a0a;
+}
+
+.login-box {
+  background-color: #1a1a2e;
+  padding: 40px;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid #222;
+  text-align: center;
+}
+
+.login-box h2 {
+  color: #00bcd4;
+  margin-bottom: 10px;
+}
+
+.login-box p {
+  color: #aaaaaa;
+  margin-bottom: 25px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login-form input {
+  background-color: #0a0a0a;
+  border: 1px solid #333;
+  color: #fff;
+  padding: 14px 18px;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.login-form input:focus {
+  border-color: #00bcd4;
+}
+
+.login-form button {
+  background-color: #00bcd4;
+  color: #0a0a0a;
+  border: none;
+  padding: 14px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.error-msg {
+  color: #ff5555;
+}
+
+.dashboard {
+  min-height: 100vh;
+  background-color: #0a0a0a;
+  padding: 40px 60px;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.dashboard-header h2 {
+  color: #00bcd4;
+  font-size: 2rem;
+}
+
+.logout-btn {
+  background-color: #ff5555;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.dashboard-card {
+  background-color: #1a1a2e;
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid #222;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.dashboard-card h3 {
+  color: #00bcd4;
+}
+
+.dashboard-card input,
+.dashboard-card textarea {
+  background-color: #0a0a0a;
+  border: 1px solid #333;
+  color: #fff;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  outline: none;
+}
+
+.dashboard-card button {
+  background-color: #00bcd4;
+  color: #0a0a0a;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.message-card {
+  background-color: #0a0a0a;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #222;
+  margin-bottom: 10px;
+}
+
+.message-card strong {
+  color: #00bcd4;
+}
+
+.message-card p {
+  color: #aaaaaa;
+  margin: 8px 0;
+  font-size: 0.9rem;
+}
+
+.message-card span {
+  color: #555;
+  font-size: 0.8rem;
+}

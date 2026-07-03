@@ -1,14 +1,22 @@
 function Projects() {
   const projects = [
     {
-      title: "Portfolio Website",
-      desc: "Personal portfolio built with React.js and Node.js with MongoDB database and email notifications.",
-      tech: "React | Node.js | MongoDB"
+      title: "Personal Portfolio Website",
+      desc: "Full stack portfolio built with React.js, Node.js, MongoDB with admin dashboard, blog section and email notifications.",
+      tech: "React | Node.js | MongoDB",
+      link: "https://future-fs-01-eight-ebon.vercel.app"
     },
     {
-      title: "Coming Soon",
-      desc: "More projects are in development. Stay tuned!",
-      tech: "..."
+      title: "Cross-Platform Notes App",
+      desc: "A notes application built for multiple platforms with real-time sync and cloud storage.",
+      tech: "React Native | Node.js | MongoDB",
+      link: "https://github.com/Indrajams2006/notes-app"
+    },
+    {
+      title: "Location-Based Service App",
+      desc: "An app that provides services based on user location with real-time tracking.",
+      tech: "React | Maps API | Node.js",
+      link: "https://github.com/Indrajams2006/location-app"
     }
   ];
 
@@ -21,6 +29,9 @@ function Projects() {
             <h3>{project.title}</h3>
             <p>{project.desc}</p>
             <span className="tech-tag">{project.tech}</span>
+            <a href={project.link} target="_blank" className="project-link">
+              View Project →
+            </a>
           </div>
         ))}
       </div>
